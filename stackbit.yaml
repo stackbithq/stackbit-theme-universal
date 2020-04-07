@@ -1,5 +1,12 @@
-stackbitVersion: ~0.2.39
+stackbitVersion: ~0.2.0
+ssgName: unibit
+buildCommand: unibit build
+publishDir: output
+staticDir: static
 uploadDir: images
+dataDir: data
+pagesDir: content
+pageLayoutKey: layout
 metadata:
   title: universal
   description: A starter theme for Unibit
@@ -143,5 +150,3 @@ stackbit_banner:
   name: Universal
   create_url: 'https://app.stackbit.com/create?theme=universal'
   github_url: 'https://github.com/stackbithq/stackbit-theme-universal'
-pagesDir: content
-staticDir: static
