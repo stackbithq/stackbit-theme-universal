@@ -1,6 +1,6 @@
 # Universal
 
-A sleek SaaS theme for Stackbit. [Live Demo](https://themes.stackbit.com/demos/universal)
+The default starter theme for Unibit. [Live Demo](https://themes.stackbit.com/demos/universal)
 
 ### About Stackbit
 
