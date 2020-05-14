@@ -1,22 +1,18 @@
 # Universal
 
-The default starter theme for Unibit. [Live Demo](https://themes.stackbit.com/demos/universal)
+A sleek SaaS theme for Stackbit. [Live Demo](https://themes.stackbit.com/demos/universal)
 
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-universal)
+### About Stackbit
 
-### Turn themes into CMS-powered websites
+[Stackbit](https://www.stackbit.com/) enables features like inline content editing, live previews and collaboration tools for Jamstack sites.
 
-[Stackbit](https://www.stackbit.com/) provisions your theme's content model with a growing selection of headless CMS and pulls the content for you in the format your static site generator expects it. This is powered by a single config file, [stackbit.yaml](https://docs.stackbit.com/uniform/stackbit-yaml/), which defines a [Uniform theme model](https://docs.stackbit.com/uniform/) and enables integration with CMS like Contentful, DatoCMS, Forestry, NetlifyCMS, etc.
+## Working with This Theme
 
-### One theme codebase converts to multiple Static Site Generators
+This theme is written in [Unibit](https://docs.stackbit.com/unibit/), which is designed to transpile themes to work with multiple static site generators (SSG) such as Jekyll, Hugo & Gatsby. To compile an SSG-specific version of the theme, you'll need to use the Unibit CLI.
 
-This theme in particular is written in [Unibit](https://docs.stackbit.com/unibit/), a superset of static site generators. Unibit's powerful transpiling engine enables you to write once and stay SSG agnostic. Themes will automatically work with new generators as they are added and can currently convert to Jekyll, Hugo & Gatsby.
+### Develop Locally Using Unibit
 
-## Quickstart
-
-### Unibit CLI
-
-Develop locally using the Unibit CLI. 
+Here's how to get started with local development using the Unibit CLI. 
 
 ```
 npm install -g @stackbit/unibit
@@ -34,8 +30,8 @@ Compile a production build into the `public` folder.
 unibit build
 ```
 
-### CodeSandbox
+### Develop Using CodeSandbox
 
-Develop this theme in the browser using CodeSandbox.
+You can also develop this theme in the browser using Unibit via CodeSandbox.
 
 [Fork in CodeSandbox](https://codesandbox.io/s/github/stackbithq/stackbit-theme-universal)
